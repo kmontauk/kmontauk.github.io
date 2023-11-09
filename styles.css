@@ -23,5 +23,5 @@ color: midnightblue; /* pick the color you want */
 }
 .assign img {
 padding: 10px; /* change this from margin to padding */
-border: 2px dotted midnightblue; /* try dashed, dotted */
+border: 2px dashed midnightblue; /* try dashed, dotted */
 }
