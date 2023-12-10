@@ -6,17 +6,31 @@ h1 {
 color: #4b3f4a;
 text-align: center;
 }
+h1:hover {    
+    color: hotpink;    
+    text-align: center;    
+    width: 100%;    
+    display: block; 
+}
 .assign {
-display: flex;
-padding: 10px;
-margin: 10px;
-background: #155153;
+ width: 20%;
+    display: block;
+    box-shadow: 8px 8px antiquewhite; 
+    padding: 10px; 
+    margin: 10px; 
+    background: saddlebrown; 
+    border-radius: 20px;
 }
 .assign img {
 width: 200px;
 padding: 10px;
+border: 2px solid midnightblue;
 }
-
+.assign img:hover {    
+    width: 200px;    
+    margin: 10px;    
+    border: 2px dashed rgb(0, 60, 255); 
+}
 a {
 text-decoration: none; /* remove underlining on anchor tags */
 color: midnightblue; /* pick the color you want */
@@ -25,3 +39,8 @@ color: midnightblue; /* pick the color you want */
 padding: 10px; /* change this from margin to padding */
 border: 2px dashed midnightblue; /* try dashed, dotted */
 }
+a:hover {    
+    text-decoration: none; /* remove underlining on anchor tags */    
+    color: salmon; /* pick the color you want */ 
+}
+
