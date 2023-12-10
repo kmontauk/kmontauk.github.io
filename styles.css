@@ -1,6 +1,8 @@
 body {
 background: #482046;
 font-family: Comic Sans MS, Helvetica, sans-serif;
+display: flex;
+flex-wrap: wrap;
 }
 h1 {
 color: #4b3f4a;
