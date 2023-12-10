@@ -7,6 +7,8 @@ flex-wrap: wrap;
 h1 {
 color: #4b3f4a;
 text-align: center;
+width: 100%;
+display: block;
 }
 h1:hover {    
     color: hotpink;    
